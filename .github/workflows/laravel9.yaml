@@ -33,4 +33,4 @@ jobs:
           file: ./DockerFile
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/practicaFinMes:latest
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/practicafinmes:latest
